@@ -398,7 +398,7 @@ export default class TextField extends PureComponent {
 
       ...(props.multiline?
         { height: 'web' === Platform.OS ? 'auto' : labelHeight + inputContainerPadding + height }:
-        { height: labelHeight + inputContainerPadding + fontSize * 1.5 }),
+        { height: labelHeight + inputContainerPadding + fontSize * 2 }),
     };
 
     let inputStyle = {
