@@ -85,7 +85,7 @@ export default class Affix extends PureComponent {
     return (
       <Animated.View style={[styles.container, containerStyle]}>
         {children}
-      //  <Animated.Text style={[style, textStyle]}>{children}</Animated.Text>
+      {/* <Animated.Text style={[style, textStyle]}>{children}</Animated.Text> */}
       </Animated.View>
     );
   }
